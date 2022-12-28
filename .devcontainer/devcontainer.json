@@ -1,10 +1,24 @@
 {
-    "build": { 
+	"name": "Azure Development environment",
+	"build": {
 		"dockerfile": "Dockerfile"
 	},
-    "extensions": [
+	"features": {
+		"ghcr.io/devcontainers/features/powershell:1": {},
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {},
+		"ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/terraform:1": {},
+		"ghcr.io/natescherer/devcontainers-custom-features/powershell-resources:1": {
+			"resources": "Az"
+		},
+		"ghcr.io/natescherer/devcontainers-custom-features/k9s:1": {
+			"version": "latest"
+		}
+	},
+	"extensions": [
 		"ms-azuretools.vscode-bicep",
-		"ms-azuretools.vscode-azurevirtualmachines",
 		"ms-azuretools.vscode-azurevirtualmachines",
 		"ms-dotnettools.vscode-dotnet-runtime",
 		"bencoleman.armview",
