@@ -1,6 +1,6 @@
-# GitHub Codespaces devcontainer for Azure Development
+# GitHub Codespaces devcontainer for Azure Development (ARM, Bicep, Terraform)
 
-This repository contains a GitHub Codespaces template for Azure Development.
+This repository contains a GitHub Codespaces template for Azure Development, mainly for **Azure ARM**, **Bicep**, **Terraform** Infrastructure as Code.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=582934176&machine=basicLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestEurope)
 
@@ -58,3 +58,10 @@ Click on the badge to create a codespace for this repository or create your own 
   - PowerShell
 
 ## How to use it?
+
+This method will allow you to fork this repository and create a codespace from it.
+
+1. Click on **Use this template**
+2. Then click on **Create a new repository**
+3. Choose a repository name within your Github organization, choose the visibility (public or private)
+4. Then click **Create repository from template**

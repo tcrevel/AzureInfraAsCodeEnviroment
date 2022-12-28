@@ -52,5 +52,12 @@
 		"ms-vsliveshare.vsliveshare",
 		"quicktype.quicktype",
 		"humao.rest-client"
-	]
+	],
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"README.md"
+			]
+		}
+	}
 }
