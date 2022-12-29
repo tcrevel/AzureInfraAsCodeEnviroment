@@ -3,18 +3,56 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+	"forwardPorts": [ 7071 ],
+	"remoteUser": "vscode",
 	"features": {
-		"ghcr.io/devcontainers/features/powershell:1": {},
-		"ghcr.io/devcontainers/features/azure-cli:1": {},
-		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {},
-		"ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/terraform:1": {},
+		"ghcr.io/devcontainers/features/dotnet:1": {
+			"version": "3.1",
+			"runtimeOnly": true
+		},
+		"ghcr.io/devcontainers/features/dotnet": {
+			"version": "2.1",
+			"runtimeOnly": true
+		},
+		"ghcr.io/devcontainers/features/powershell": "7.3.1",
+		"ghcr.io/devcontainers/features/azure-cli": {
+			"installBicep": true,
+			"version": "2.43.0"
+		},
+		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools": {
+			"version": "4.0.4915"
+		},
+		"ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {
+			"version": "0.13.1"
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"version": "2.21.1"
+		},
+		"ghcr.io/devcontainers/features/terraform:1": {
+			"version": "1.3.6",
+			"tflint": "0.44.0",
+			"terragrunt": "0.42.5",
+			"installTFsec": true,
+			"installTerraformDocs": true
+		},
 		"ghcr.io/natescherer/devcontainers-custom-features/powershell-resources:1": {
 			"resources": "Az"
 		},
 		"ghcr.io/natescherer/devcontainers-custom-features/k9s:1": {
 			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/java": "17",
+		"ghcr.io/devcontainers/features/node": "18",
+		"ghcr.io/devcontainers/features/python": "3.11",
+		"ghcr.io/rio/features/k3d": {
+			"version": "5.4.6"
+		},
+		"ghcr.io/devcontainers/features/docker-from-docker": {
+			"version": "20.10",
+			"dockerDashComposeVersion": "v1"
+		},
+		"ghcr.io/devcontainers/features/aws-cli": {
+			"version": "2.9.11"
 		}
 	},
 	"extensions": [
@@ -51,7 +89,9 @@
 		"ms-dotnettools.csharp",
 		"ms-vsliveshare.vsliveshare",
 		"quicktype.quicktype",
-		"humao.rest-client"
+		"humao.rest-client",
+		"ms-dotnettools.csharp",
+		"vscjava.vscode-java-debug"
 	],
 	"customizations": {
 		"codespaces": {

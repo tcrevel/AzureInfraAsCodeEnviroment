@@ -8,54 +8,70 @@ Click on the badge to create a codespace for this repository or create your own 
 
 ## What is included?
 
-- mcr.microsoft.com/devcontainers/base:ubuntu-22.04 base image
-- Codespaces features:
-  - PowerShell
-  - Azure 'Az' PowerShell module
-  - Azure CLI
-  - Azure Function Core Tools v4
-  - Azure Bicep
-  - Terraform
-  - GitHub CLI
-  - Git
-  - k9s
-- Visual Studio Code extensions:
-  - .NET Install Tool for Extension Authors
-  - ARM Template Viewer
-  - Azure Account
-  - Azure App Service
-  - Azure CLI Tools
-  - Azure Databases
-  - Azure Developer CLI
-  - Azure Functions
-  - Azure Kubernetes Service
-  - Azure Logic App (Standard)
-  - Azure Pipelines
-  - Azure Resource Manager
-  - Azure Resources
-  - Azure Static Web Apps
-  - Azure Storage
-  - Azure Tools
-  - Docker
-  - Git Graph
-  - Git History
-  - Git Lens
-  - Hashicorp Terraform
-  - Kubernetes
-  - Logic Apps - Run Triggers
-  - Markdown All in One
-  - markdownlint
-  - REST Client
-  - YAML
-  - Azure Logic Apps (Consumption)
-  - Azure Policy
-  - Azure Terraform
-  - Azurite
-  - Bicep
-  - C#
-  - Live Share
-  - Paste JSON as Code
-  - PowerShell
+This GitHub Codespace is based on the mcr.microsoft.com/devcontainers/base:ubuntu-22.04 image.
+
+### Tools
+
+| Name                         | Version  |
+|---                           |---       |
+| PowerShell                   | 7.3.1    |
+| .NET Core Runtime/CLI Tools  | 2.1      |
+| .NET Core Runtime/CLI Tools  | 3.1      |
+| Java JDK                     | 17       |
+| Node.js                      | 18       |
+| Python                       | 3.11     |
+| Azure Az PowerShell module   | 9.2.0    |
+| Azure CLI                    | 2.43.0   |
+| Azure Function Core Tools    | 4.0.4915 |
+| Azure Bicep                  | 0.13.1   |
+| Terraform                    | 1.3.6    |
+| Tflint                       | 0.44.0   |
+| Terragrunt                   | 0.42.5   |
+| GitHub CLI                   | 2.21.1   |
+| Git                          | 2.25.1   |
+| k9s                          | 0.26.7   |
+| k3d                          | 5.4.6    |
+| Docker CLI/Compose           | 20.10    |
+| AWS CLI                      | 2.9.11   |
+
+### Visual Studio Code extensions
+
+- .NET Install Tool for Extension Authors
+- ARM Template Viewer
+- Azure Account
+- Azure App Service
+- Azure CLI Tools
+- Azure Databases
+- Azure Developer CLI
+- Azure Functions
+- Azure Kubernetes Service
+- Azure Logic App (Standard)
+- Azure Pipelines
+- Azure Resource Manager
+- Azure Resources
+- Azure Static Web Apps
+- Azure Storage
+- Azure Tools
+- Docker
+- Git Graph
+- Git History
+- Git Lens
+- Hashicorp Terraform
+- Kubernetes
+- Logic Apps - Run Triggers
+- Markdown All in One
+- markdownlint
+- REST Client
+- YAML
+- Azure Logic Apps (Consumption)
+- Azure Policy
+- Azure Terraform
+- Azurite
+- Bicep
+- C#
+- Live Share
+- Paste JSON as Code
+- PowerShell
 
 ## How to use it?
 
